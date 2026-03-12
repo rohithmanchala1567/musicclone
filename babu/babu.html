@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./babu.css">
+</head>
+<style>
+  body{
+        background-image:url("https://i.pinimg.com/736x/fe/b5/b6/feb5b60836671c6aa61d92c67bbc20ed.jpg" );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .music-img{
+        object-fit: contain;
+    }
+  .title{
+        font-size: 60px;
+        font-weight: bold;
+        background-image: url("https://plus.unsplash.com/premium_photo-1670671933890-176bdb86ef34?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVkJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: transparent;
+        background-clip: text;
+  }
+
+</style>
+<body>
+    <div class="title">mahesh babu hits</div>
+    <div class="music">
+    <div class="container">
+        <div class="c1" id="b1" data-index="0"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>kurchi madathapetti</span> <span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b2" data-index="1"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>mawa enthaina</span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b3" data-index="2"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>sir osthara</span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b4" data-index="3"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>dookudu</span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt=""></span></div>
+    </div>
+    <div class="music-img"><img src="https://i.pinimg.com/736x/c5/2a/99/c52a99c529b2d940fd583e2a91d216b5.jpg" alt="playing"></div>
+    <div class="music-player">
+              <div class="player-details">
+                <h1><span id="player-title">Song Title</span></h1>
+                <span id="player-artist">Mahesh Babu Hits</span>
+             </div>
+   <div class="player-controls">
+       <button id="prev"><img src="https://cdn-icons-png.flaticon.com/128/15954/15954785.png" alt=""></button>
+    <button id="play-pause"><img src="https://cdn-icons-png.flaticon.com/128/483/483054.png" alt=""></button>
+    <button id="next"><img src="https://cdn-icons-png.flaticon.com/128/3567/3567831.png" alt=""></button>
+  </div>
+  <div class="ranges">
+    <img src="https://cdn-icons-png.flaticon.com/128/3208/3208768.png">
+   <input type="range" id="volume" value="100" min="0" max="100">
+  <input type="range" id="progress" value="0" min="0" max="100">
+  <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+
+  </div>
+  </div>
+</div>
+</div>
+</body>
+<script src="./babu.js"></script>
+</html>

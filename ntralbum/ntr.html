@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../babu/babu.css">
+</head>
+<style>
+    .pawan{
+        background-image:url("https://i.pinimg.com/736x/c2/2b/a8/c22ba8ab17a568722476a98c9e0d2a71.jpg" );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+    .music-img{
+        object-fit: contain;
+    }
+    .title{
+        font-size: 60px;
+        font-weight: bold;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/194/916/small/red-background-scary-bloody-wall-white-wall-with-blood-splatter-for-halloween-background-photo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: transparent;
+        background-clip: text;
+
+    }
+</style>
+<body >
+    <div class="pawan">
+    <div class="title" >Ntr hits</div>
+    <div class="music">
+    <div class="container">
+        <div class="c1" id="b1" data-index="0"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>Chuttamalle Song </span> <span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b2" data-index="1"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span> Fear Song </span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b3" data-index="2"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>Ayudha Pooja Song</span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b4" data-index="3"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>Pakka Local</span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt=""></span></div>
+    </div>
+    <div class="music-img" ><img src="https://i.pinimg.com/736x/18/90/85/1890852d57cfa21ffaac74b8033d73d4.jpg" alt="playing"></div>
+    <div class="music-player">
+              <div class="player-details">
+                <h1><span id="player-title">Song Title</span></h1>
+                <span id="player-artist">Ntr Hits</span>
+             </div>
+   <div class="player-controls">
+       <button id="prev"><img src="https://cdn-icons-png.flaticon.com/128/254/254437.png" alt=""></button>
+    <button id="play-pause"><img src="https://cdn-icons-png.flaticon.com/128/483/483054.png" alt=""></button>
+    <button id="next"><img  src="https://cdn-icons-png.flaticon.com/128/3567/3567831.png" alt=""></button>
+  </div>
+  <div class="ranges">
+    <img src="https://cdn-icons-png.flaticon.com/128/3208/3208768.png">
+   <input type="range" id="volume" value="100" min="0" max="100">
+  <input type="range" id="progress" value="0" min="0" max="100">
+<span id="current-time">0:00</span> / <span id="duration">0:00</span>
+
+  </div>
+</div>
+</div>
+</div>
+</body>
+<script src="./ntr.js"></script>
+</html>

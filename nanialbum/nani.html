@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../babu/babu.css">
+</head>
+<style>
+    .pawan{
+        background-image:url("https://i.pinimg.com/736x/63/cb/c4/63cbc4880e6e2850a12d8d256b58d6ad.jpg" );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .music-img{
+        object-fit: contain;
+    }
+    .title{
+        font-size: 60px;
+        font-weight: bold;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/194/916/small/red-background-scary-bloody-wall-white-wall-with-blood-splatter-for-halloween-background-photo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: transparent;
+        background-clip: text;
+
+    }
+</style>
+<body >
+    <div class="pawan">
+    <div class="title" >Nani hits</div>
+    <div class="music">
+    <div class="container">
+        <div class="c1" id="b1" data-index="0"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>Samayama Song </span> <span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b2" data-index="1"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span> Odiyamma Song </span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b3" data-index="2"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>Asalelaa Song</span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt="" ></span></div>
+        <div class="c1" id="b4" data-index="3"><img src="https://cdn-icons-png.flaticon.com/128/7566/7566380.png" alt=""><span>Gaaju Bomma</span><span class="play"><img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" alt=""></span></div>
+    </div>
+    <div class="music-img" ><img src="https://i.pinimg.com/736x/f5/81/10/f5811007eda1c7dd9bff3171ec89ffd1.jpg" alt="playing"></div>
+    <div class="music-player">
+              <div class="player-details">
+                <h1><span id="player-title">Song Title</span></h1>
+                <span id="player-artist">Nani Hits</span>
+             </div>
+   <div class="player-controls">
+       <button id="prev"><img src="https://cdn-icons-png.flaticon.com/128/254/254437.png" alt=""></button>
+    <button id="play-pause"><img src="https://cdn-icons-png.flaticon.com/128/483/483054.png" alt=""></button>
+    <button id="next"><img  src="https://cdn-icons-png.flaticon.com/128/3567/3567831.png" alt=""></button>
+  </div>
+  <div class="ranges">
+    <img src="https://cdn-icons-png.flaticon.com/128/3208/3208768.png">
+   <input type="range" id="volume" value="100" min="0" max="100">
+  <input type="range" id="progress" value="0" min="0" max="100">
+<span id="current-time">0:00</span> / <span id="duration">0:00</span>
+
+  </div>
+</div>
+</div>
+</div>
+</body>
+<script src="./nani.js"></script>
+</html>
